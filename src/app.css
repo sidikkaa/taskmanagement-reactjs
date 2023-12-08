@@ -1,0 +1,45 @@
+.App {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin:20px;
+    border:1px solid black;
+    background-color: #d4e6ed;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  div {
+    margin:25px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #1a1818;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .completed {
+    background-color: #d4edda;
+    color: #119630;
+  }
+  
+  .pending {
+    background-color: #f8f9fa; 
+    color: #131414; 
+  }
+  .late {
+    background-color: #f8d7da;
+    color: #ca2031;
+  }
+  
